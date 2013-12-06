@@ -11,6 +11,7 @@ WINDOWS_SESSION =
                          ],
                          :postinstall_files => [
                            "install-chef.bat",
+                           "install-puppet.bat",
                            "install-vbox.bat", # would be interesting to only include this on vbox
                            # "mount-validation.bat" # maybe test if we are within a vbox vm?
                            # because this will eventually run on kvm, openstack, etc etc

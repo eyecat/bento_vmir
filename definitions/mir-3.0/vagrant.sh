@@ -1,4 +1,10 @@
 #!/bin/bash -eux
+yum -y update
+yum -y install java-1.6.0-openjdk
+yum -y install "@Development Tools"
+yum -y install wget
+yum -y install kernel-devel
+
 
 if [ -f /home/vagrant/.vbox_version ]; then
     mkdir /tmp/vbox

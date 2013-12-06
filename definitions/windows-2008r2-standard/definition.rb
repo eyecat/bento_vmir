@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 require File.dirname(__FILE__) + "/../.windows/session.rb"
 
-iso_src = "http://care.dlservice.microsoft.com//dl/download/7/5/E/75EC4E54-5B02-42D6-8879-D8D3A25FBEF7/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso"
+#iso_src = "http://care.dlservice.microsoft.com//dl/download/7/5/E/75EC4E54-5B02-42D6-8879-D8D3A25FBEF7/7601.17514.101119-1850_x64fre_server_eval_en-us-GRMSXEVAL_EN_DVD.iso"
+iso_src = "http://care.dlservice.microsoft.com//dl/download/7/5/E/75EC4E54-5B02-42D6-8879-D8D3A25FBEF7/en_windows_server_2008_r2_with_sp1_x64_dvd_617601.iso"
+
 
 session = WINDOWS_SESSION.merge({
     :os_type_id => 'Windows2008_64',
